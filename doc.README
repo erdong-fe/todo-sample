@@ -1,6 +1,11 @@
 
-1. 删除todos
+1. 完成todos
 2. 编辑todos
 3. 前端项目的请求流程：
     1. npm script，npm install
     2. localhost和127.0.0.1
+
+
+作业：
+1. 当所有的todo都被complete的时候，第一个todo上面显示“no active todo”
+2. 已完成的todo不允许编辑

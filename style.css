@@ -21,6 +21,17 @@ header{
     display: flex;
     gap:10px;
     flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.btn-submit {
+    background-color: #67C23A;
+    border: none;
+    color: white;
+    font-weight: bold;
+    padding: 4px 8px;
+    border-radius: 2px;
+    cursor: pointer;
 }
 .todo-list{
     display: flex;
@@ -41,5 +52,35 @@ header{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
+    background-color: whitesmoke;
+}
+.todo-list li .todo-content-completed {
+    text-decoration: line-through;
+}
+.todo-content {
+    cursor: pointer;
+}
+.todo-list li .btn-box {
+    margin-left: 20px;
+}
+.todo-list li .btn-edit {
+    background-color: #1677ff;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    padding: 3px 8px;
+    font-weight: bold;
+    cursor: pointer;
 }
 
+.todo-list li .btn-delete {
+    background-color: #ff4d4f;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    padding: 3px 8px;
+    font-weight: bold;
+    margin-left: 4px;
+    cursor: pointer;
+}
