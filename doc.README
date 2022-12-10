@@ -1,0 +1,6 @@
+
+1. 删除todos
+2. 编辑todos
+3. 前端项目的请求流程：
+    1. npm script，npm install
+    2. localhost和127.0.0.1
